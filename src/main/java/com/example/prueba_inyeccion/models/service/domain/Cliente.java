@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 public class Cliente {
     @Value("{cliente.nombre")
     private String Nombre;
+    @Value("{cliente.apellido")
     private String Apellido;
 
-    @Value("{cliente.apellido")
 
     public String getNombre() {
         return Nombre;

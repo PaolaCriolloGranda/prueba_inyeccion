@@ -23,6 +23,7 @@
     <tbody>
     <tr th:each="item:${factura.items}">
         <td th:text="${item.producto.nombre}"></td>
+
         <td th:text="${item.producto.precio}"></td>
         <td th:text="${item.cantidad}"></td>
 
